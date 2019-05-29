@@ -1,0 +1,19 @@
+namespace PodstawyWiazania
+{
+    /// <summary>
+    /// Interaction logic for Window1.xaml
+    /// </summary>
+    public partial class Window1 : Window
+    {
+        public Window1()
+        {
+            InitializeComponent();
+        }
+
+        private void button1_Click(object sender, RoutedEventArgs e)
+        {
+            //textBox1.Text = "dowolny tekst";
+            textBox1.Text = slider1.Value.ToString();
+        }
+    }
+}

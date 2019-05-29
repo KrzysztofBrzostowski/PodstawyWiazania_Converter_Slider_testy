@@ -1,0 +1,13 @@
+﻿<Application x:Class="PodstawyWiazania.App"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mojaPrzestrzen="clr-namespace:PodstawyWiazania"
+    StartupUri="Window1.xaml">
+    <Application.Resources>
+        
+        <mojaPrzestrzen:KonwerterWartosci x:Key="Instancja_of_KonwerterWartosci"/>
+        <mojaPrzestrzen:Konwerter_wartosci_toString x:Key="Instancja_of_KonwerterWartosci_toString"/>
+
+
+    </Application.Resources>
+</Application>
